@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>bootstrap 4</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark lead">
+        <a class="navbar-brand" href="#">بوت استرپ 4</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">خانه<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">محصولات</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                دکمه کشویی
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">تخفیف ها</a>
+                <a class="dropdown-item" href="#">درباره ما</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">اطلاعات بیشتر</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">غیرفعال</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mx-sm-2" type="search" placeholder="جستجو" aria-label="Search">
+            <button class="btn btn-primary my-2 my-sm-0" type="submit">جستجو</button>
+          </form>
+        </div>
+      </nav>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Images/12311.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/12312.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/12313.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/12314.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/12315.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+    
+<!-- ------------------------------------sidebar---------------------------------------------------- -->
+
+<div class="container-fluid bg-light">
+  
+
+  <div class="row">
+    <div class="bg-light col-sm-2">
+      <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <button class="nav-link active" id="v-pills-home-tab" data-toggle="pill" data-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">خانه</button>
+        <button class="nav-link" id="v-pills-profile-tab" data-toggle="pill" data-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">پروفایل</button>
+        <button class="nav-link" id="v-pills-messages-tab" data-toggle="pill" data-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">پیام ها</button>
+        <button class="nav-link" id="v-pills-settings-tab" data-toggle="pill" data-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">تنظیمات</button>
+      </div>
+    </div>
+    <div class="bg-light col-sm-2">
+      <div class="tab-content" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"> متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست</div>
+        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"> متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست  متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست</div>
+        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"> متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست  متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست</div>
+        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab"> متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست  متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست</div>
+      </div>
+    </div>
+  
+  
+    <div class="card-group col-sm-8">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">موضوع 1</h5>
+          <p class="card-text">. متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست</p>
+          <p class="card-text"><small class="text-muted">1 دقیقه پیش</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">موضوع 2</h5>
+          <p class="card-text">. متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست</p>
+          <p class="card-text"><small class="text-muted">2 دقیقه پیش </small></p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">موضوع 3</h5>
+          <p class="card-text">. متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست متن تست</p>
+          <p class="card-text"><small class="text-muted">3 دقیقه پیش</small></p>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+
+
+</div>
+
+<!-- ---------------------------------------------------------------------tab------------------------------------------------- -->
+
+<div class="container-fluid bg-light">
+  <br><br>
+
+  <ul class="nav nav-pills nav-tabs nav-justified">
+
+    <li class="nav-item active">
+      <a href="#profile" class="nav-link" data-toggle="tab">پروفایل</a>
+    </li>
+
+    <li class="nav-item">
+      <a href="#messages" class="nav-link" data-toggle="tab">پیام ها</a>
+    </li>
+
+    <li class="nav-item">
+      <a href="#about" class="nav-link" data-toggle="tab">بیشتر</a>
+    </li>
+
+
+  </ul>
+
+
+<div class="tab-content container">
+
+  <div class="tab-pane active" id="profile">
+    <div class="card-group">
+      <div class="card">
+        <img class="card-img-fluid img-thumbnail" src="Images/tab-cards/a2b8a02d.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">عنوان عکس 1</h5>
+          <p class="card-text"> متن نمایشی جهت تست متن نمایشی جهت تست متن نمایشی جهت تست</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">اخرین اپدیت 3 دقیقه پیش</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-fluid img-thumbnail" src="Images/tab-cards/Af - @screen .jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">عنوان عکس 2</h5>
+          <p class="card-text">متن نمایشی جهت تست متن نمایشی جهت تست متن نمایشی جهت تست متن نمایشی جهت تست متن نمایشی جهت تست</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">اخرین اپدیت 6 دقیقه پیش</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-fluid img-thumbnail" src="Images/tab-cards/Autumn.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">عنوان عکس 3</h5>
+          <p class="card-text">متن نمایشی جهت تست متن نمایشی جهت تست متن نمایشی جهت تست متن نمایشی جهت تستمتن نمایشی جهت تست متن نمایشی جهت تست متن نمایشی جهت تست ر</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">اخرین اپدیت 8 دقیقه پیش</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-pane" id="messages">
+    <div class="card-group">
+      <div class="card">
+        <img class="card-img-fluid img-thumbnail" src="Images/tab-cards/call of duty.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">عنوان عکس 4</h5>
+          <p class="card-text"> متن نمایشی جهت تست متن نمایشی جهت تست متن نمایشی جهت تست متن نمایشی جهت تست متن نمایشی جهت تست</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">اخرین اپدیت 9 دقیقه پیش</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-fluid img-thumbnail" src="Images/tab-cards/Crow and me.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">عنوان عکس 5</h5>
+          <p class="card-text">متن نمایشی جهت تست متن نمایشی جهت تست متن نمایشی جهت تست متن نمایشی جهت تست متن نمایشی جهت تست  متن نمایشی جهت تست</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">اخرین اپدیت 2 دقیقه پیش</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-fluid img-thumbnail" src="Images/tab-cards/Dangerous.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">عنوان عکس 6</h5>
+          <p class="card-text">متن نمایشی جهت تست متن نمایشی جهت تست متن نمایشی جهت تست متن نمایشی جهت تست</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">اخرین اپدیت 8 دقیقه پیش</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-pane" id="about">
+    <div class="card-group">
+      <div class="card">
+        <img class="card-img-fluid img-thumbnail" src="Images/tab-cards/Dgb  - @screen.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">عنوان عکس 7</h5>
+          <p class="card-text">متن نمایشی جهت تست متن نمایشی جهت تست  متن نمایشی جهت تست</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">اخرین اپدیت 1 ساعت پیش</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-fluid img-thumbnail" src="Images/tab-cards/Dreaming Together_15493.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">عنوان عکس 8</h5>
+          <p class="card-text">متن نمایشی جهت تست متن نمایشی جهت تست متن نمایشی جهت تست متن نمایشی جهت تست</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">اخرین اپدیت 7 روز پیش</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-fluid img-thumbnail" src="Images/tab-cards/ec99c2ac-24c6-4306-88ce-757ad1b2cea4.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">عنوان عکس 9</h5>
+          <p class="card-text"> متن نمایشی جهت تست متن نمایشی جهت تست متن نمایشی جهت تست متن نمایشی جهت تست متن نمایشی جهت تست متن نمایشی جهت تست متن نمایشی جهت تست</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">اخرین اپدیت خیلی وقت پیش</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+</body>
+</html>

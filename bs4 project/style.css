@@ -1,0 +1,55 @@
+body{
+    background-image: url("cropped-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+body nav {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,2,116,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+nav{
+    direction: rtl;
+    color: white;
+    border-bottom: 1px rgb(0, 174, 255) solid;
+}
+
+.navbar-nav{
+text-align: center;
+}
+
+.form-control{
+    text-align: center;
+    
+}
+
+
+.size{
+    width: 30px;
+    height: 30px;
+}
+
+
+#carouselExampleIndicators{
+    width: 100vw;
+    height: 50vh;
+}
+
+.carousel-item img{
+    height: 50vh;
+}
+
+.container-fluid{
+    direction: rtl;
+}
+
+.card img{
+    width: 80vw;
+    height: 60vh;
+    border-radius: 1vw;
+
+}
